@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView2">
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/scrollView2"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="61dp"
+       android:background="@drawable/note" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:background="@drawable/assignment"
+        android:layout_alignTop="@+id/imageButton8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:background="@drawable/notice"
+        android:layout_below="@+id/imageButton8"
+        android:layout_alignLeft="@+id/imageButton8"
+        android:layout_alignStart="@+id/imageButton8"
+        android:layout_marginTop="67dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:background="@drawable/datesheet"
+        android:layout_alignTop="@+id/imageButton16"
+        android:layout_alignLeft="@+id/imageButton9"
+        android:layout_alignStart="@+id/imageButton9" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:background="@drawable/result"
+        android:layout_below="@+id/imageButton16"
+        android:layout_alignLeft="@+id/imageButton16"
+        android:layout_alignStart="@+id/imageButton16"
+        android:layout_marginTop="72dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:background="@drawable/attendance"
+        android:layout_alignTop="@+id/imageButton18"
+        android:layout_alignLeft="@+id/imageButton17"
+        android:layout_alignStart="@+id/imageButton17" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton8"
+        android:layout_alignStart="@+id/imageButton8"
+        android:layout_below="@+id/imageButton8"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:textSize="19sp"
+        android:fontFamily="cursive"
+        android:textColor="#e9fc6712"
+        android:layout_marginTop="11dp"
+        android:text="Notes" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton9"
+        android:textSize="19sp"
+        android:fontFamily="cursive"
+        android:textColor="#e9fc6712"
+        android:layout_alignStart="@+id/imageButton9"
+        android:layout_alignTop="@+id/textView25"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:text="Assignment" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView25"
+        android:layout_alignStart="@+id/textView25"
+        android:layout_below="@+id/imageButton16"
+        android:textSize="19sp"
+        android:fontFamily="cursive"
+        android:textColor="#e9fc6712"
+        android:layout_marginTop="12dp"
+        android:text="Notice" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:fontFamily="cursive"
+        android:textColor="#e9fc6712"
+        android:layout_alignBottom="@+id/textView27"
+        android:layout_alignLeft="@+id/textView26"
+        android:layout_alignStart="@+id/textView26"
+        android:text="Datesheet" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:fontFamily="cursive"
+        android:textColor="#e9fc6712"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_below="@+id/imageButton19"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="17dp"
+        android:text="Result" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:fontFamily="cursive"
+        android:textColor="#e9fc6712"
+        android:text="Attendance"
+        android:layout_alignBaseline="@+id/textView29"
+        android:layout_alignBottom="@+id/textView29"
+        android:layout_alignLeft="@+id/textView28"
+        android:layout_alignStart="@+id/textView28" />
+</RelativeLayout>

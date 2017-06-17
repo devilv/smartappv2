@@ -1,0 +1,414 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:2:1-79:12
+	package
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:10:22-76
+application
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:12:5-77:19
+MERGED from [com.android.support:design:25.1.0] C:\Users\varun\.android\build-cache\7c96e5d12ce857241bf4e5ebcc10c43917904f5f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.1.0] C:\Users\varun\.android\build-cache\026be105afc10d019db2bf0eb6b7d44ab779aa71\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\varun\.android\build-cache\cbd4c3233571228a979c9227b36f92eb16b0a53f\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-crash:10.2.0] C:\Users\varun\.android\build-cache\80b75c302e9de23428391d81fe47f27737f4bb8b\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:10.2.0] C:\Users\varun\.android\build-cache\570bdc1e8eef142a103acb66c830f21525db8c83\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\varun\.android\build-cache\845fb486f9a773aadd865a6a42e99e4ab58cf7e6\output\AndroidManifest.xml:19:5-29:19
+MERGED from [cn.pedant.sweetalert:library:1.3] C:\Users\varun\.android\build-cache\b0c583cb075fd74d0aa8997816af37b04e4cc1a8\output\AndroidManifest.xml:11:5-20
+MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\varun\.android\build-cache\9c6d80dc28f950d1bf0726399561dea048448ef6\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.dmytrodanylyk.circular-progress-button:library:1.1.3] C:\Users\varun\.android\build-cache\b744729dd0a11b8a08d9d78d6b4719a969c79168\output\AndroidManifest.xml:12:5-20
+MERGED from [com.github.igalata:Bubble-Picker:v0.1.1] C:\Users\varun\.android\build-cache\2ab47e015557296f228d1cd2a73ca4987892b4b4\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\varun\.android\build-cache\69b34ce934c9b674d88dbded537cf1eae8e7f246\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\varun\.android\build-cache\1e23f888f513622eabe7710441889ac24817fa9a\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\varun\.android\build-cache\92451bd1027b7fb9fc58c9fdf5d1ac9afc6839a3\output\AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\varun\.android\build-cache\5f8ac7a034884f8764c3069a6bde18b3a66322f0\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\varun\.android\build-cache\0cef43efe841026b74969f6a8b17b37284c74f8f\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-core:10.2.0] C:\Users\varun\.android\build-cache\7439e50f4ccb297cc69036a07bcb10b1c7de87f9\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\varun\.android\build-cache\779dd4e7d0b993166cab0126f011937b8bffecd3\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.2.0] C:\Users\varun\.android\build-cache\bd88378535c41c9cfda12e4dec140895bd4d37dd\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\varun\.android\build-cache\5dcbe7e1bb260e974052e72f1f364a31d51b6552\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\varun\.android\build-cache\74ba1127c67d9526a8f6e4fb895eafa60bde260b\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\varun\.android\build-cache\954f80f9eaa53dd0ba499574b4846ab4090b2a55\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\varun\.android\build-cache\e26321dd63f5bcf95cc4d9a4fbc1a65fdacd29a7\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\varun\.android\build-cache\96ef0ce87f09a3b84ec77ce90e153ed83e2d6967\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\varun\.android\build-cache\d25e9f85638b8a8b12097dc1b1e0383c5f849624\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\varun\.android\build-cache\a4633e1de27fd1f32053044ce69c2ab6d63f7b22\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\varun\.android\build-cache\5cc1bbd28c7e5905564c2d2b7b50de190b628349\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:16:9-41
+	android:supportsRtl
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:17:9-35
+	android:allowBackup
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:15:9-45
+	android:theme
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:18:9-40
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:13:9-36
+activity#com.devil.smartapp.MainActivity
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:19:9-25:20
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:19:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:23:27-74
+activity#com.devil.smartapp.SplashScreen
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:26:9-50
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:26:19-47
+activity#com.devil.smartapp.Aboutus
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:27:9-45
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:27:19-42
+activity#com.devil.smartapp.cseFragment
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:28:9-49
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:28:19-46
+activity#com.devil.smartapp.CseFirst
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:29:9-46
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:29:19-43
+activity#com.devil.smartapp.CseFirstNotes
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:30:9-51
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:30:19-48
+activity#com.devil.smartapp.CseSecond
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:31:9-47
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:31:19-44
+activity#com.devil.smartapp.CseThird
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:32:9-46
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:32:19-43
+activity#com.devil.smartapp.CseFourth
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:33:9-47
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:33:19-44
+activity#com.devil.smartapp.Ece
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:34:9-41
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:34:19-38
+activity#com.devil.smartapp.EceFirst
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:35:9-46
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:35:19-43
+activity#com.devil.smartapp.EceSecond
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:36:9-47
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:36:19-44
+activity#com.devil.smartapp.EceThird
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:37:9-46
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:37:19-43
+activity#com.devil.smartapp.EceFourth
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:38:9-47
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:38:19-44
+activity#com.devil.smartapp.Civil
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:39:9-43
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:39:19-40
+activity#com.devil.smartapp.CivilFirst
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:40:9-48
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:40:19-45
+activity#com.devil.smartapp.CivilSecond
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:41:9-49
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:41:19-46
+activity#com.devil.smartapp.CivilThird
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:42:9-48
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:42:19-45
+activity#com.devil.smartapp.CivilFourth
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:43:9-49
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:43:19-46
+activity#com.devil.smartapp.Mech
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:44:9-42
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:44:19-39
+activity#com.devil.smartapp.MechFirst
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:45:9-47
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:45:19-44
+activity#com.devil.smartapp.MechSecond
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:46:9-48
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:46:19-45
+activity#com.devil.smartapp.MechThird
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:47:9-47
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:47:19-44
+activity#com.devil.smartapp.MechFourth
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:48:9-48
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:48:19-45
+activity#com.devil.smartapp.Mba
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:49:9-41
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:49:19-38
+activity#com.devil.smartapp.MbaFirst
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:50:9-46
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:50:19-43
+activity#com.devil.smartapp.MbaSecond
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:51:9-47
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:51:19-44
+activity#com.devil.smartapp.Bba
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:52:9-41
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:52:19-38
+activity#com.devil.smartapp.BbaFirst
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:53:9-46
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:53:19-43
+activity#com.devil.smartapp.BbaSecond
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:54:9-47
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:54:19-44
+activity#com.devil.smartapp.BbaThird
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:55:9-46
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:55:19-43
+activity#com.devil.smartapp.HomeActivity
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:56:9-50
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:56:19-47
+activity#com.devil.smartapp.MainnActivity
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:57:9-60:47
+	android:label
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:59:13-57
+	android:theme
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:60:13-44
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:58:13-42
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:70:9-72:55
+	android:value
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:72:13-52
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:71:13-58
+activity#com.devil.smartapp.MapsActivity
+ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:74:9-76:59
+	android:label
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:76:13-56
+	android:name
+		ADDED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml:75:13-41
+uses-sdk
+INJECTED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.1.0] C:\Users\varun\.android\build-cache\7c96e5d12ce857241bf4e5ebcc10c43917904f5f\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.1.0] C:\Users\varun\.android\build-cache\81fa32a6cb10d0ef4e44d3d4900f853551bbc97f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.1.0] C:\Users\varun\.android\build-cache\026be105afc10d019db2bf0eb6b7d44ab779aa71\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\varun\.android\build-cache\cbd4c3233571228a979c9227b36f92eb16b0a53f\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database:10.2.0] C:\Users\varun\.android\build-cache\d1e9957f8a8f8f0ce55a4bf0919e73cef99177ed\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.0] C:\Users\varun\.android\build-cache\d470a53791996277783d581a0b88a34dc174419e\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-crash:10.2.0] C:\Users\varun\.android\build-cache\80b75c302e9de23428391d81fe47f27737f4bb8b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-auth:10.2.0] C:\Users\varun\.android\build-cache\570bdc1e8eef142a103acb66c830f21525db8c83\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\varun\.android\build-cache\845fb486f9a773aadd865a6a42e99e4ab58cf7e6\output\AndroidManifest.xml:17:5-43
+MERGED from [cn.pedant.sweetalert:library:1.3] C:\Users\varun\.android\build-cache\b0c583cb075fd74d0aa8997816af37b04e4cc1a8\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\varun\.android\build-cache\9c6d80dc28f950d1bf0726399561dea048448ef6\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.dmytrodanylyk.circular-progress-button:library:1.1.3] C:\Users\varun\.android\build-cache\b744729dd0a11b8a08d9d78d6b4719a969c79168\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.igalata:Bubble-Picker:v0.1.1] C:\Users\varun\.android\build-cache\2ab47e015557296f228d1cd2a73ca4987892b4b4\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\varun\.android\build-cache\69b34ce934c9b674d88dbded537cf1eae8e7f246\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\varun\.android\build-cache\1e23f888f513622eabe7710441889ac24817fa9a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\varun\.android\build-cache\92451bd1027b7fb9fc58c9fdf5d1ac9afc6839a3\output\AndroidManifest.xml:21:5-43
+MERGED from [io.reactivex:rxandroid:1.2.0] C:\Users\varun\.android\build-cache\d733b539067bd0fba519dfbaf7841c2f35825d1f\output\AndroidManifest.xml:19:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\varun\.android\build-cache\5f8ac7a034884f8764c3069a6bde18b3a66322f0\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\varun\.android\build-cache\0cef43efe841026b74969f6a8b17b37284c74f8f\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.0] C:\Users\varun\.android\build-cache\7439e50f4ccb297cc69036a07bcb10b1c7de87f9\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\varun\.android\build-cache\779dd4e7d0b993166cab0126f011937b8bffecd3\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.0] C:\Users\varun\.android\build-cache\bd88378535c41c9cfda12e4dec140895bd4d37dd\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\varun\.android\build-cache\5dcbe7e1bb260e974052e72f1f364a31d51b6552\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\varun\.android\build-cache\74ba1127c67d9526a8f6e4fb895eafa60bde260b\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\varun\.android\build-cache\954f80f9eaa53dd0ba499574b4846ab4090b2a55\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\varun\.android\build-cache\e26321dd63f5bcf95cc4d9a4fbc1a65fdacd29a7\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\varun\.android\build-cache\96ef0ce87f09a3b84ec77ce90e153ed83e2d6967\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\varun\.android\build-cache\d25e9f85638b8a8b12097dc1b1e0383c5f849624\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\varun\.android\build-cache\a4633e1de27fd1f32053044ce69c2ab6d63f7b22\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\varun\.android\build-cache\5cc1bbd28c7e5905564c2d2b7b50de190b628349\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.1.0] C:\Users\varun\.android\build-cache\7c96e5d12ce857241bf4e5ebcc10c43917904f5f\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\varun\AndroidStudioProjects\smartapp\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-crash:10.2.0] C:\Users\varun\.android\build-cache\80b75c302e9de23428391d81fe47f27737f4bb8b\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\varun\.android\build-cache\5f8ac7a034884f8764c3069a6bde18b3a66322f0\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\varun\.android\build-cache\779dd4e7d0b993166cab0126f011937b8bffecd3\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:10.2.0] C:\Users\varun\.android\build-cache\80b75c302e9de23428391d81fe47f27737f4bb8b\output\AndroidManifest.xml:18:22-64
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\varun\.android\build-cache\845fb486f9a773aadd865a6a42e99e4ab58cf7e6\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\varun\.android\build-cache\845fb486f9a773aadd865a6a42e99e4ab58cf7e6\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\varun\.android\build-cache\845fb486f9a773aadd865a6a42e99e4ab58cf7e6\output\AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\varun\.android\build-cache\845fb486f9a773aadd865a6a42e99e4ab58cf7e6\output\AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\varun\.android\build-cache\845fb486f9a773aadd865a6a42e99e4ab58cf7e6\output\AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\varun\.android\build-cache\845fb486f9a773aadd865a6a42e99e4ab58cf7e6\output\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\varun\.android\build-cache\845fb486f9a773aadd865a6a42e99e4ab58cf7e6\output\AndroidManifest.xml:25:25-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\varun\.android\build-cache\5f8ac7a034884f8764c3069a6bde18b3a66322f0\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\varun\.android\build-cache\779dd4e7d0b993166cab0126f011937b8bffecd3\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\varun\.android\build-cache\5f8ac7a034884f8764c3069a6bde18b3a66322f0\output\AndroidManifest.xml:19:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\varun\.android\build-cache\5f8ac7a034884f8764c3069a6bde18b3a66322f0\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\varun\.android\build-cache\5f8ac7a034884f8764c3069a6bde18b3a66322f0\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\varun\.android\build-cache\5f8ac7a034884f8764c3069a6bde18b3a66322f0\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\varun\.android\build-cache\0cef43efe841026b74969f6a8b17b37284c74f8f\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\varun\.android\build-cache\0cef43efe841026b74969f6a8b17b37284c74f8f\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\varun\.android\build-cache\0cef43efe841026b74969f6a8b17b37284c74f8f\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\varun\.android\build-cache\0cef43efe841026b74969f6a8b17b37284c74f8f\output\AndroidManifest.xml:19:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\varun\.android\build-cache\779dd4e7d0b993166cab0126f011937b8bffecd3\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\varun\.android\build-cache\779dd4e7d0b993166cab0126f011937b8bffecd3\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\varun\.android\build-cache\779dd4e7d0b993166cab0126f011937b8bffecd3\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\varun\.android\build-cache\1d7501c14c16c43dcb3b64a76abe0ffa8e54d7f0\output\AndroidManifest.xml:32:16-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\varun\.android\build-cache\8a4e648c18cf605614ec01c47cb7170be114502c\output\AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\varun\.android\build-cache\bd88378535c41c9cfda12e4dec140895bd4d37dd\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\varun\.android\build-cache\bd88378535c41c9cfda12e4dec140895bd4d37dd\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\varun\.android\build-cache\bd88378535c41c9cfda12e4dec140895bd4d37dd\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\varun\.android\build-cache\bd88378535c41c9cfda12e4dec140895bd4d37dd\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\varun\.android\build-cache\bd88378535c41c9cfda12e4dec140895bd4d37dd\output\AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\varun\.android\build-cache\74ba1127c67d9526a8f6e4fb895eafa60bde260b\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\varun\.android\build-cache\74ba1127c67d9526a8f6e4fb895eafa60bde260b\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\varun\.android\build-cache\74ba1127c67d9526a8f6e4fb895eafa60bde260b\output\AndroidManifest.xml:20:20-65

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\varun\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.6\2586312cd2b8a511e4c6236736f5a039fc0f2273\rxjava-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="C:\Users\varun\AndroidStudioProjects\smartapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.6_804c35d70d77ebcff08f62e098171ecda6b43c21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\varun\.gradle\caches\modules-2\files-2.1\io.reactivex\rxkotlin\0.60.0\6729c889262e7c2cb6bba30cb9aa93d78167f69b\rxkotlin-0.60.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6729c889262e7c2cb6bba30cb9aa93d78167f69b">
+        <dex dex="C:\Users\varun\AndroidStudioProjects\smartapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxkotlin-0.60.0_e2e19d6df5d368f3967c84d690e146219336dc7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\varun\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.0.6\d19acb6ed49b9c48228c0e5dff8071fce23be4b8\kotlin-stdlib-1.0.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d19acb6ed49b9c48228c0e5dff8071fce23be4b8">
+        <dex dex="C:\Users\varun\AndroidStudioProjects\smartapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\kotlin-stdlib-1.0.6_7fcb52c4f770bccdabf922f0422f07b3e27e87d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\varun\.android\build-cache\5f8ac7a034884f8764c3069a6bde18b3a66322f0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
+        <dex dex="C:\Users\varun\AndroidStudioProjects\smartapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_38c80564c41ef386c5444eb48a0c7832bc9b047b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\varun\.android\build-cache\2ab47e015557296f228d1cd2a73ca4987892b4b4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="59e0c9cdce45d65250d229316e6ee6fb3d1aac2c">
+        <dex dex="C:\Users\varun\AndroidStudioProjects\smartapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3198c3c363c332b28ad8c53a0744d1fb36b1eacc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\varun\.android\build-cache\d733b539067bd0fba519dfbaf7841c2f35825d1f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
+        <dex dex="C:\Users\varun\AndroidStudioProjects\smartapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d397b627ca554c4299a6a01d20631fdf70a29526\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\varun\AndroidStudioProjects\smartapp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a6ef5d7e8b2b0ca49bccf2aa3c851e598d456c3a">
+        <dex dex="C:\Users\varun\AndroidStudioProjects\smartapp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_46a5d47e55fdc913d4123c19f1cc0df3b4589737\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\varun\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-runtime\1.0.6\3562c66f648480d3bd4f76cff722488ced13445b\kotlin-runtime-1.0.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3562c66f648480d3bd4f76cff722488ced13445b">
+        <dex dex="C:\Users\varun\AndroidStudioProjects\smartapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\kotlin-runtime-1.0.6_0c6f1c1d14b9a174d93cfe84c50e90a40b415675\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\varun\.android\build-cache\2ab47e015557296f228d1cd2a73ca4987892b4b4\output\jars\libs\slf4j-api-1.7.22.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d0d5b842073f5861a3c9628205ebcfced125748c">
+        <dex dex="C:\Users\varun\AndroidStudioProjects\smartapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\slf4j-api-1.7.22_0d7d88a72e8a02349828453bac9f0b257e36c169\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\varun\.android\build-cache\2ab47e015557296f228d1cd2a73ca4987892b4b4\output\jars\libs\jbox2d-library-2.1.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2c402f35264b3dcadec2d9b1dbd747313e47df21">
+        <dex dex="C:\Users\varun\AndroidStudioProjects\smartapp\app\build\intermediates\transforms\dex\debug\folders\1000\10\jbox2d-library-2.1.2.2_bf2b875605dee73a2959f2c5b706b3a53d7395da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\varun\AndroidStudioProjects\smartapp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\varun\AndroidStudioProjects\smartapp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9098a4314b2e9c4c83c2523268b134fe8ff490d5\classes.dex" />
+    </item>
+
+</items>

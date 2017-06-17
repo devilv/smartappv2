@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.devil.smartapp">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".Application"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".Aboutus" />
+        <activity android:name=".cseFragment" />
+        <activity android:name=".CseFirst" />
+        <activity android:name=".CseFirstNotes" />
+        <activity android:name=".CseSecond" />
+        <activity android:name=".CseThird" />
+        <activity android:name=".CseFourth" />
+        <activity android:name=".Ece" />
+        <activity android:name=".EceFirst" />
+        <activity android:name=".EceSecond" />
+        <activity android:name=".EceThird" />
+        <activity android:name=".EceFourth" />
+        <activity android:name=".Civil" />
+        <activity android:name=".CivilFirst" />
+        <activity android:name=".CivilSecond" />
+        <activity android:name=".CivilThird" />
+        <activity android:name=".CivilFourth" />
+        <activity android:name=".Mech" />
+        <activity android:name=".MechFirst" />
+        <activity android:name=".MechSecond" />
+        <activity android:name=".MechThird" />
+        <activity android:name=".MechFourth" />
+        <activity android:name=".Mba" />
+        <activity android:name=".MbaFirst" />
+        <activity android:name=".MbaSecond" />
+        <activity android:name=".Bba" />
+        <activity android:name=".BbaFirst" />
+        <activity android:name=".BbaSecond" />
+        <activity android:name=".BbaThird" />
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".MainnActivity"
+            android:label="@string/title_activity_mainn"
+            android:theme="@style/AppTheme" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+    </application>
+
+</manifest>

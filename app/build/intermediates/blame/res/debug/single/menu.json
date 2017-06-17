@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\varun\\AndroidStudioProjects\\smartapp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_scrolling.xml",
+        "source": "C:\\Users\\varun\\AndroidStudioProjects\\smartapp\\app\\src\\main\\res\\menu\\menu_scrolling.xml"
+    },
+    {
+        "merged": "C:\\Users\\varun\\AndroidStudioProjects\\smartapp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_mainn_drawer.xml",
+        "source": "C:\\Users\\varun\\AndroidStudioProjects\\smartapp\\app\\src\\main\\res\\menu\\activity_mainn_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\varun\\AndroidStudioProjects\\smartapp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\mainn.xml",
+        "source": "C:\\Users\\varun\\AndroidStudioProjects\\smartapp\\app\\src\\main\\res\\menu\\mainn.xml"
+    }
+]
